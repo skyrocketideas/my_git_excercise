@@ -1,0 +1,3 @@
+#ignore videofiles
+*.mp4
+*.webm
