@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+}
+nav {
+  width: 80vw;
+  background-color: #f88;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+nav ul li + li::before {
+  content: " ";
+  border-left: 1px solid black;
+  padding-left: 8vw;
+}
